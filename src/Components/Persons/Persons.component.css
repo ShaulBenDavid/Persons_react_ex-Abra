@@ -1,0 +1,27 @@
+.person-card {
+    background-color: whitesmoke;
+    border-radius: 10px 30px;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    transition: 1s;
+    box-shadow: 6px 7px 10px 6px rgba(0, 0, 0, 0.48);
+} 
+
+
+.person-card:hover {
+    transform: scale(1.1);
+}
+
+.person-card h2 {
+    color: rgba(200,32,144,1);
+    font-size: 1.6rem;
+}
+
+.person-card p {
+    color: rgb(38, 7, 77);
+    font-weight: 500;
+    font-size: 1.125rem;
+}
